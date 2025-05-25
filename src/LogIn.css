@@ -1,0 +1,22 @@
+.LogInContainer{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: grid;
+    justify-content: space-around ;
+}
+
+.LogInForm div{
+    margin: 3px 0px 5px;
+}
+
+.signInSignUp{
+    text-align: center;
+    margin-top: 10px;
+    align-self: center;
+    justify-content: center;
+}
+
+.signInButton{
+    padding: 12px 32px;
+    
+}

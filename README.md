@@ -1,0 +1,1 @@
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react dayjs react-router-dom @reduxjs/toolkit json-server axios react-bootstrap bootstrap validator crypto-js toastify react react-dom react-redux react-router react-scripts react-toastify redux web-vitals

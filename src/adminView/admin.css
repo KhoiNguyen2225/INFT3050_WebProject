@@ -1,0 +1,20 @@
+.navLinkAdmin {
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.mainBodyAdmin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.mainBodyAdminFunction {
+    padding: 20px;
+}

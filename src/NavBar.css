@@ -1,0 +1,51 @@
+.menu{
+    display: flex;
+    color: aliceblue;
+    justify-content:flex-start;
+    margin-top:0px;
+    gap: 90px;
+}
+
+.navbar{
+    height: 60 px;
+    width: 100%;
+    background-color: #A189A9;
+    outline-color: #071108;
+    outline-width: 2px;
+    outline-style: solid;
+    ;
+}
+
+.menu li{
+    margin-bottom: -16px;
+    list-style-type: none;
+    width: 4cm;
+    height: 2cm;
+    background-color: #DAD0DC;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    outline-color: #071108;
+    outline-width: 2px;
+    outline-style: solid;
+    font-weight: 500;
+    
+}
+
+.menu li a{
+    text-decoration:none;
+    justify-content:space-around ;
+    padding: 0.8cm;
+    display: flex;
+}
+
+.menu li:hover{
+    background-color: #071108;
+}
+
+
+
+.menu li a:hover{
+    color: white;
+    font-weight: 500;
+}
+

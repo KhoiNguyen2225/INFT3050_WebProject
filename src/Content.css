@@ -1,0 +1,89 @@
+/* ul */
+.itemContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    place-items: center;
+    padding: 0 40px;
+}
+
+/* li */
+.items{
+    height: 475px;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* margin-right: 10%; */
+    list-style-type: none;
+    border-color: #071108;
+    border-style: solid;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+
+.itemName{
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    text-align: center;
+
+}
+
+.itemPrice{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #605F62;
+}
+
+.itemPic{
+    padding: 15px;
+    width: 210px;
+    height: 260px;
+    
+}
+
+.items .buttonHolder{
+    justify-self: flex-end;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 5px; */
+}
+
+.buttonHolder .addToCartButton{
+    text-align: center;
+    text-decoration:solid;
+    border: 2px solid green;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-bottom: 10px;
+    background-color: white;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.addToCartButton:hover{
+    background-color: green;
+    color: white;
+
+}
+
+
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center
+}
+
+.itemSoucre{
+    margin: 5px 
+}

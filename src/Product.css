@@ -1,0 +1,52 @@
+.productInfoContainer{
+    display: flex;
+    margin: 50px 50px;
+}
+
+.productInfo{
+    /* margin-top: 10px; */
+    /* display: flex; */
+    margin-left: 70px;
+}
+
+.productInfo h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.productInfo h2{
+    margin: 5px 0px; 
+    font-size: 30px;
+}
+
+.productInfo p{
+    margin: 8px 0px; 
+    font-size: 15px;
+}
+
+.productInfo button{
+    margin: 50px 0px;
+}
+
+
+.productImage{
+    width: 350px;
+    height: 500px;
+    outline-style: solid;
+}
+
+.itemDes{
+    border: solid 3px black;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 70%;
+}
+
+.itemDes h1{
+    margin: 10px;
+}
+
+.itemDes p{
+    margin-left: 10px;
+}
